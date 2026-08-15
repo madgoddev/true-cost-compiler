@@ -1,0 +1,16 @@
+[tool.pytest.ini_options]
+minversion = "9.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
+markers = [
+  "integration: exercises five-validator GLSim rather than direct mode",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["contracts"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false

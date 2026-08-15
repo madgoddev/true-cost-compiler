@@ -1,0 +1,17 @@
+.artifacts/
+.gltest_cache/
+.pytest_cache/
+.tools/
+.venv/
+artifacts/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+deployments/*.raw.json
+*.key
+*.pem
+*.p12
+*.keystore

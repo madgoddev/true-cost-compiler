@@ -1,0 +1,78 @@
+{
+  "evidenceSchema": "truecostcompiler/deployment-evidence/v2",
+  "networkAlias": "studionet",
+  "networkName": "Genlayer Studio Network",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "explorerBaseUrl": "https://genlayer-explorer.vercel.app",
+  "cliVersion": "0.39.2",
+  "deployerAddress": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contractAddress": "0x07694E36773892d1FDd24C5F11d02Db61b4D6135",
+  "deploymentTransactionHash": "0xbc8d034e89dbd5b0a2edc0fcf7f25cf80d640b3505e5733b76d7d85ad1316808",
+  "deployedAtUtc": "2026-08-12T12:27:41.908282Z",
+  "deploymentLifecycleStatus": "FINALIZED",
+  "deploymentConsensusResult": "MAJORITY_AGREE",
+  "deploymentExecutionResult": "SUCCESS",
+  "contractSourceSha256": "5AAC8F139F8B64D2400A0369B244F775B062F96F84665D66FA67269FD0C61845",
+  "deployedSourceSha256": "5AAC8F139F8B64D2400A0369B244F775B062F96F84665D66FA67269FD0C61845",
+  "deployedSourceBytes": 34622,
+  "deployedSourceMatchesLocal": true,
+  "genvmDependency": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": {
+    "publicMethodCount": 10,
+    "viewMethodCount": 9,
+    "writeMethodCount": 1,
+    "constructorParameterCount": 0,
+    "verified": true
+  },
+  "protocolRead": {
+    "protocolVersion": 2,
+    "protocolSchema": "truecostcompiler/protocol/v2",
+    "promptPolicy": "truecostcompiler/exact-fee-program-output/v2",
+    "offerSchema": "truecostcompiler/offer/v1",
+    "programSchema": "truecostcompiler/fee-program/v1",
+    "quoteRequiresCompleteProgram": true
+  },
+  "smokeTest": {
+    "fixture": "examples/metrobox-offer.json",
+    "fixtureFileSha256": "E26B4C2EA6FB05CCD702D757C99EAF0C81429F89491884E97CDD329A0F680830",
+    "transactionHash": "0xf56273059d037b0798c3031c91346a75838385c56bf361e31b4583e2d10b47bb",
+    "submittedAtUtc": "2026-08-12T12:31:15.238257Z",
+    "lifecycleStatus": "FINALIZED",
+    "consensusResult": "MAJORITY_AGREE",
+    "executionResult": "SUCCESS",
+    "validatorVotes": {
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    },
+    "offerId": "tcc1:2615221ad3e0f200ff69de8e43e62fb2d411f18cb3e417ea508e75b60c04e329",
+    "modelHash": "fc2847423fbb7129f139cef29cfe533f685763afc04d25cb1a57bae2e9aede30",
+    "compiledAt": 1786537875,
+    "complete": true,
+    "ruleCount": 4,
+    "uncertaintyMask": 0,
+    "matchesCompleteProgram": true,
+    "sampleScenario": {
+      "distance_km": 12,
+      "expedited": true,
+      "region": "REMOTE"
+    },
+    "sampleQuoteTotalMinor": 5170,
+    "catalogCountAfterRead": 1,
+    "readbackVerified": true
+  },
+  "diagnosticAttempts": [
+    {
+      "contractAddress": "0xcF9E6aa38E6707D95827E7C73976f7A375FE9Fdb",
+      "deploymentTransactionHash": "0x2081b46f8406e8ad1a7b5d641ce3d8c499c6d3445936cdf52f3460f1124317b7",
+      "smokeTransactionHash": "0x65008f894d9743f7495fd534a786274aa9ea5930a94b52a7be6a272354f8b70d",
+      "supersededSourceSha256": "DCD176DA8D87B7595EB9B3C22B4A249CC0390ED102CBE32D2B17CC82766AF48B",
+      "smokeExecutionResult": "ERROR",
+      "smokeError": "[LLM_ERROR] rule_keys",
+      "storedProgramCount": 0,
+      "releaseEligible": false
+    }
+  ],
+  "verifiedAtUtc": "2026-08-12T12:34:00Z"
+}

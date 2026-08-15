@@ -1,0 +1,67 @@
+{
+  "evidenceSchema": "truecostcompiler/deployment-evidence/v2",
+  "networkAlias": "testnet-bradbury",
+  "networkName": "GenLayer Bradbury Testnet",
+  "chainId": 4221,
+  "rpcUrl": "https://rpc-bradbury.genlayer.com",
+  "explorerBaseUrl": "https://explorer-bradbury.genlayer.com",
+  "cliVersion": "0.39.2",
+  "deployerAddress": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contractAddress": "0x2b9a96ff4C88a93C76143699EEd66C38e5748Cee",
+  "deploymentTransactionHash": "0xa64b05240910af2ded22e876f3fb4ffef2290efbe8d14003f7eefcdd816aad48",
+  "deployedAtUtc": "2026-08-12T15:03:07Z",
+  "deploymentLifecycleStatus": "FINALIZED",
+  "deploymentConsensusResult": "AGREE",
+  "deploymentExecutionResult": "FINISHED_WITH_RETURN",
+  "contractSourceSha256": "5AAC8F139F8B64D2400A0369B244F775B062F96F84665D66FA67269FD0C61845",
+  "deployedSourceSha256": "5AAC8F139F8B64D2400A0369B244F775B062F96F84665D66FA67269FD0C61845",
+  "deployedSourceBytes": 34622,
+  "deployedSourceMatchesLocal": true,
+  "genvmDependency": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": {
+    "publicMethodCount": 10,
+    "viewMethodCount": 9,
+    "writeMethodCount": 1,
+    "constructorParameterCount": 0,
+    "verified": true
+  },
+  "protocolRead": {
+    "protocolVersion": 2,
+    "protocolSchema": "truecostcompiler/protocol/v2",
+    "promptPolicy": "truecostcompiler/exact-fee-program-output/v2",
+    "offerSchema": "truecostcompiler/offer/v1",
+    "programSchema": "truecostcompiler/fee-program/v1",
+    "quoteRequiresCompleteProgram": true
+  },
+  "smokeTest": {
+    "fixture": "examples/metrobox-offer.json",
+    "fixtureFileSha256": "E26B4C2EA6FB05CCD702D757C99EAF0C81429F89491884E97CDD329A0F680830",
+    "transactionHash": "0x30788fcee152a82926592088dc8649d35381204497c07ae2d93bc42ac052accf",
+    "submittedAtUtc": "2026-08-12T15:34:55Z",
+    "lifecycleStatus": "FINALIZED",
+    "consensusResult": "AGREE",
+    "executionResult": "FINISHED_WITH_RETURN",
+    "validatorVotes": {
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    "offerId": "tcc1:2615221ad3e0f200ff69de8e43e62fb2d411f18cb3e417ea508e75b60c04e329",
+    "modelHash": "36b381d3c2800546766ce393e4567b064bb88acd705a92b38837bf5041b5d43d",
+    "compiledAt": 1786548895,
+    "complete": true,
+    "ruleCount": 4,
+    "uncertaintyMask": 0,
+    "matchesCompleteProgram": true,
+    "sampleScenario": {
+      "distance_km": 12,
+      "expedited": true,
+      "region": "REMOTE"
+    },
+    "sampleQuoteTotalMinor": 5170,
+    "catalogCountAfterRead": 1,
+    "readbackVerified": true
+  },
+  "diagnosticAttempts": [],
+  "verifiedAtUtc": "2026-08-12T16:19:07.662Z"
+}

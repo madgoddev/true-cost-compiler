@@ -1,0 +1,43 @@
+{
+  "schema": "truecostcompiler/offer/v1",
+  "offer_name": "MetroBox public delivery offer",
+  "currency": "USD",
+  "minor_unit_exponent": 2,
+  "source_documents": [
+    {
+      "id": "PRICING",
+      "uri": "https://pricing.example.test/metrobox",
+      "retrieved_at": "2026-08-12T09:00:00Z",
+      "text": "Every delivery has a $10.00 booking charge. Distance costs $2.50 per whole kilometre. Deliveries in the REMOTE region add $7.00."
+    },
+    {
+      "id": "TERMS",
+      "uri": "https://pricing.example.test/metrobox/terms",
+      "retrieved_at": "2026-08-12T09:00:00Z",
+      "text": "If expedited service is selected, add 10% after the booking, distance, and regional charges and round to the nearest cent, with half cents rounded up. Listed prices include all taxes."
+    }
+  ],
+  "parameters": [
+    {
+      "name": "distance_km",
+      "kind": "INTEGER",
+      "minimum": 0,
+      "maximum": 500,
+      "values": []
+    },
+    {
+      "name": "expedited",
+      "kind": "BOOLEAN",
+      "minimum": 0,
+      "maximum": 1,
+      "values": []
+    },
+    {
+      "name": "region",
+      "kind": "ENUM",
+      "minimum": 0,
+      "maximum": 0,
+      "values": ["LOCAL", "REMOTE"]
+    }
+  ]
+}
